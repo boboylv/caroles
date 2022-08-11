@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Caroles.xsl"?>
+<!DOCTYPE Carolesclothes[
+  <!ELEMENT Carolesclothes (record*)>
+  <!ELEMENT record (Shiftdress, Wraparoundskirt, Cardigan, Dresshat)>
+  <!ELEMENT Shiftdress (#PCDATA)>
+  <!ELEMENT Wraparoundskirt (#PCDATA)>
+  <!ELEMENT Cardigan (#PCDATA)>
+  <!ELEMENT Dresshat (#PCDATA)>
+]>
+
+<!-- The root element should be the same as file name -->
+<Carolesclothes>
+  <record>
+    <Shiftdress>$45.00</Shiftdress>
+    <Wraparoundskirt>$30.00</Wraparoundskirt>
+    <Cardigan>$70.00</Cardigan>
+    <Dresshat>$20.00</Dresshat>
+  </record>
+  <record>
+    <Shiftdress>Simple shift, available in two colours. 100% cotton</Shiftdress>
+    <Wraparoundskirt>Simple wraparound skirt, available in two colours. 100% cotton</Wraparoundskirt>
+    <Cardigan>Winter cardigan, available in two colours. 100% wool. </Cardigan>
+    <Dresshat>Stylish dress hat, available in two colours. 100% linen.</Dresshat>
+  </record>  
+  <record>
+    <Shiftdress>Shiftdress.jpg</Shiftdress>
+    <Wraparoundskirt>Wraparoundskirt.jpg</Wraparoundskirt>
+    <Cardigan>cardigan.jpg</Cardigan>
+    <Dresshat>Dresshat.jpg</Dresshat>
+  </record>
+    <record>
+    <Shiftdress>Shiftdress.mp3</Shiftdress>
+    <Wraparoundskirt>Wraparoundskirt.mp3</Wraparoundskirt>
+    <Cardigan>cardigan.mp3</Cardigan>
+    <Dresshat>Dresshat.mp3</Dresshat>
+  </record>
+
+</Carolesclothes>
